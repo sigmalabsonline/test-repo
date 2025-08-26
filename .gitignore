@@ -1,0 +1,58 @@
+# .gitignore for .NET projects (Visual Studio / VS Code)
+
+# Build Folders
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+
+# JetBrains Rider caches
+*.DotSettings.user
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Publish output
+publish/
+
+# Logs
+*.log
+
+# User-specific files
+*.resharper
+*.dotCover
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Certificates
+*.pfx
+
+# Entity Framework
+*.tsql
+
+# Azure
+.publishsettings
+
+# Backup files
+*_Backup_*/
+*~
