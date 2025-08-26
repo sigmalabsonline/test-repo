@@ -1,58 +1,206 @@
 # .gitignore for .NET projects (Visual Studio / VS Code)
 
-# Build Folders
-bin/
-obj/
-out/
-
-# Visual Studio
-.vs/
+# User-specific files
+*.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+*.userprefs
 
-# Rider
-.idea/
+# Build Folders
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+bin/
+obj/
+out/
+bld/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Files built by Visual Studio
+*.obj
+*.pdb
+*.idb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
 
 # Visual Studio Code
 .vscode/
 .history/
 
-# NuGet
+# Rider
+.idea/
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# Coverlet is a free, cross platform Code Coverage Tool
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NuGet Packages
 *.nupkg
+*.snupkg
 .nuget/
 packages/
 
-# JetBrains Rider caches
-*.DotSettings.user
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
 
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
+# MSBuild Binary and Structured Log
+*.binlog
+MSBuild_Logs/
 
-# Publish output
-publish/
+# Visual Studio History (VSHistory) files
+.vshistory/
 
-# Logs
-*.log
+# BeatPulse healthcheck temp database
+healthchecksdb
 
-# User-specific files
-*.resharper
-*.dotCover
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+# Fody - auto-generated XML schema
+FodyWeavers.xsd
+
+# Environment files
+*.env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # OS files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-
-# Certificates
-*.pfx
-
-# Entity Framework
-*.tsql
 
 # Azure
 .publishsettings
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# Certificates
+*.pfx
+*.p12
+*.cer
+*.crt
+*.pem
+
+# Entity Framework
+*.edmx.diagram
+*.edmx.sql
+*.tsql
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+PublishScripts/
+
+# Node.js Tools for Visual Studio (if any)
+.ntvs_analysis.dat
+node_modules/
 
 # Backup files
 *_Backup_*/
 *~
+*.orig
