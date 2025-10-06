@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Repo - Signin (Fixed Version)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signin-form">
+            <h1>Sign In (Fixed)</h1>
+            <form id="signinForm">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <small>Try: admin, user, or demo (case insensitive)</small>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Sign In</button>
+            </form>
+            <div id="message" class="message"></div>
+            <div id="userInfo" class="user-info hidden">
+                <h2>Welcome!</h2>
+                <p>You are successfully signed in.</p>
+                <button id="signoutBtn">Sign Out</button>
+            </div>
+            <div class="demo-info">
+                <h3>Bug Fixes Demonstrated:</h3>
+                <ul>
+                    <li>✅ Case-insensitive usernames</li>
+                    <li>✅ Specific error messages</li>
+                    <li>✅ Auto-clearing error messages</li>
+                    <li>✅ Input validation</li>
+                    <li>✅ Remember me functionality</li>
+                    <li>✅ Caps lock detection</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="signin-fixed.js"></script>
+</body>
+</html>
